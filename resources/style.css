@@ -1,18 +1,30 @@
 body
   {font-family: Helvetica, sans-serif;
-  color: white;
+  color: black;
   text-align: center;}
 
 .header
-  {background-image: url(./images/the-flatiron-building.png);}
+  {background-image: url(./images/the-flatiron-building.png);
+  color: white;}
+
+.footer
+  {background-color: dimgray;
+  font-size: 11px;
+  color: white;
+  text-align: left;}
 
 h1
-  {font-weight: bold
+  {font-weight: bold;
   font-size: 70px;}
 
 p
-  {font-size: 18px;}
+  {font-size: 14px;}
 
 h2
-  {font-size:22px;
-  color: black;}
+  {font-size:32px;}
+
+h3
+  {font-size:23;}
+
+a
+  {color: white;}
